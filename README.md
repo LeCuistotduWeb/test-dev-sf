@@ -14,9 +14,5 @@ Pratique :
 
 Questions théoriques : 
 1. Que mettriez-vous en place afin d'améliorer les temps de réponses du script
-    - Mettre en cache la réponse de l'api ou faire tourner un cron pour récuperer les nouvelles images (evite de faire l'appel à chaque utilisateur)
-3. Comment aborderiez-vous le fait de rendre scalable le script (plusieurs milliers de sources et images)
-   - mettre en place une pagination
-   - stocker en db les urls et urls d'images
-   - Créer des batchs
+2. Comment aborderiez-vous le fait de rendre scalable le script (plusieurs milliers de sources et images)
    

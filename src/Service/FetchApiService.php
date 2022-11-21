@@ -25,7 +25,7 @@ class FetchApiService
     {
         try {
             $response = $this->client->request('GET', $url);
-            return json_decode($response->getContent());
+            return json_decode($response->getContent(), true);
         } catch (\Throwable $th) {
             throw new Exception('Une erreur est survenue');
         }
